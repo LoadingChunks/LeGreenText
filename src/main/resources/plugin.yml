@@ -1,0 +1,8 @@
+name: LeGreenText
+main: net.LoadingChunks.LeGreenText.LeGreenText
+version: 0.1
+
+commands:
+   command:
+      description: A Command
+      usage: /<command> 
