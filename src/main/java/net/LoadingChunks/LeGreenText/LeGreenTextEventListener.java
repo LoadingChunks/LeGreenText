@@ -44,7 +44,7 @@ public class LeGreenTextEventListener implements Listener {
 
 	@EventHandler
 	public void onChat(AsyncPlayerChatEvent event) {
-		if(event.getMessage().startsWith("> ")) {
+		if(event.getMessage().startsWith("> ") && event.getPlayer().hasPermission("legreentext.use")) {
 			event.setMessage(ChatColor.GREEN + event.getMessage());
 		}
 	}
